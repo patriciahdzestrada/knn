@@ -17,3 +17,4 @@ scipy==1.18.1
 seaborn==0.13.2
 threadpoolctl==3.8.0
 tzdata==2026.6
+pytest
