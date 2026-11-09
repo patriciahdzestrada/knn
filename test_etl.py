@@ -1,4 +1,3 @@
-
 from knn import function
 
 def test_function():
