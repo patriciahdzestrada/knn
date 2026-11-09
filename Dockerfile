@@ -13,7 +13,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copiar el proyecto y los datos
-COPY . .
+COPY . /app
 
 # Ejecutar las pruebas
 CMD ["python", "-m", "pytest", "-v"]

@@ -18,7 +18,7 @@ def function(mostrar_graficas=True):
     Path(__file__).resolve().parent / "reports"
     )
     directorio_artifacts.mkdir(parents=True, exist_ok=True)
-    ruta_csv = Path(__file__).resolve().parent / "data" / "recuersos_humanos.csv"
+    ruta_csv = Path(__file__).resolve().parent / "data" / "recursos_humanos.csv"
     data = pd.read_csv(ruta_csv)
 
     # 3. Limpieza y preparacion de datos
